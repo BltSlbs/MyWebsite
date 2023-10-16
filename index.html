@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant Web Site</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="images/logo.jpeg" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#products">Products</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#blogs">Blogs</a>
+        </nav>
+
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button>
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-inputt" 
+            id="search-box" placeholder="search here">
+            <i class="fas fa-search"></i>
+        </div>
+
+    </header>
+
+
+
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Origami Café Bad Lausick</h3>
+            <P>Kaffee zum Mitnehmen, Geschmack zum Verweilen: Bad Lausicks Beste!" (Coffee to Go, Flavor to Stay: Bad Lausick's Best!)</P>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+    </section>
+
+
+
+
+    <section class="menu" id="menu">
+        <h1 class="heading">Our<span>Menu</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-1.png" alt="menu">
+                    <span class="menu-category">Espresso Coffee</span>
+                    <H3>Espresso Coffee</H3>
+                    <div class="price">€2.10<span>€2.50</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Contents</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-2.png" alt="menu">
+                    <span class="menu-category">Americano</span>
+                    <H3>Americano</H3>
+                    <div class="price">€2.30<span>€2.70</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Contents</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-3.png" alt="menu">
+                    <span class="menu-category">Latte</span>
+                    <H3>Latte</H3>
+                    <div class="price">€3.10<span>€3.50</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Contents</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-head">
+                    <img src="images/menu-4.png" alt="menu">
+                    <span class="menu-category">Capuccino Coffee</span>
+                    <H3>Capuccino Coffee</H3>
+                    <div class="price">€3.10<span>€3.50</span></div>
+                </div>
+                <div class="box-bottom">
+                    <a href="#" class="btn">Contents</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Products section start-->
+<section class="products" id="products">
+    <h1 class="heading">Our<span>Products</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Coffee</span>
+                <a href="#" class="name">Espresso Coffee</a>
+            </div>
+            <div class="images">
+                <img src="images/menu-1.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">€2.10</b>
+                    <span class="amount">80 ml Coffee</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Coffee</span>
+                <a href="#" class="name">Americano</a>
+            </div>
+            <div class="images">
+                <img src="images/menu-2.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">€2.30</b>
+                    <span class="amount">80 ml Coffee / 150 ml Milk</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div> 
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Coffee</span>
+                <a href="#" class="name">Latte</a>
+            </div>
+            <div class="images">
+                <img src="images/menu-3.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">€3.10</b>
+                    <span class="amount">80 ml Coffee / 140 ml Milk</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-head">
+                <span class="title">Coffee</span>
+                <a href="#" class="name">Capuccino Coffee</a>
+            </div>
+            <div class="images">
+                <img src="images/menu-4.png" alt="">
+            </div>
+            <div class="box-bottom">
+                <div class="info">
+                    <b class="price">€3.10</b>
+                    <span class="amount">80 ml Coffee / 120 ml Milk</span>
+                </div>
+                <div class="product-btn">
+                    <a href="#">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Products section end-->
+
+<!-- about section start-->
+<section class="about" id="about">
+    <h1 class="heading">About<span>Us</span></h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/about.jpg" alt="about">
+        </div>
+        <div class="content">
+            <h3>Origami Café Bad Lausick</h3>
+            <p>Kaffee zum Mitnehmen, Geschmack zum Verweilen: Bad Lausicks Beste!" (Coffee to Go, Flavor to Stay: Bad Lausick's Best!)</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </div>
+</section>
+<!-- about section end-->
+
+<!-- review section start-->
+<section class="review" id="review">
+    <h1 class="heading">Customer's <span>Review</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>I hear that it is a delicious coffee. soon, I will come from Ankara to Bad Lausick to drink their coffee.</p>
+            <img src="images/avatar-1.jpg" alt="avatar" class="user">
+            <h3>Bulut Selbeş</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>It is a great place with great coffee</p>
+            <img src="images/avatar-2.jpg" alt="avatar" class="user">
+            <h3>Bekir Erol İşbiliroğlu</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>Delicious coffee with nice sellers 🌺 there is also a bakery there. Good combination.</p>
+            <img src="images/avatar-3.jpg" alt="avatar" class="user">
+            <h3>Blanka Zímová</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/quote.png" alt="quote">
+            <p>Friendly and coffees are good. I am happy when I buy coffee from here every morning.</p>
+            <img src="images/avatar-4.jpg" alt="avatar" class="user">
+            <h3>ITU</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section end-->
+
+<!-- contact section start-->
+<section class="contact" id="contact">
+    <h1 class="heading">Contact <span>Us</span></h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10011.787904039209!2d12.6586701!3d51.1463289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a71b46d76e961b%3A0xf5a2cf77a324d781!2sOrigami%20Cafe!5e0!3m2!1sen!2str!4v1692081887805!5m2!1sen!2str" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form>
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-envelope"></i>
+                <input type="email" placeholder="e-mail">
+            </div>
+            <div class="inputBox">
+                <i class="fas fa-phone"></i>
+                <input type="number" placeholder="phone number">
+            </div>
+            <input type="submit" class="btn" value="contact Now">
+        </form>
+    </div>
+</section>
+<!-- contact section end-->
+
+<!-- blog section start-->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our <span>Blog</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-1.png" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">how to make espresso coffee?</a>
+                <span>by Bulut Selbeş / 16st august, 2023</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam molestiae voluptates delectus tenetur nemo expedita harum amet, facilis asperiores id unde quia excepturi similique quae neque autem incidunt. Quis, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-2.png" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">how to make americano?</a>
+                <span>by Bulut Selbeş / 16st august, 2023</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam molestiae voluptates delectus tenetur nemo expedita harum amet, facilis asperiores id unde quia excepturi similique quae neque autem incidunt. Quis, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-3.png" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">how to make latte?</a>
+                <span>by Bulut Selbeş / 16st august, 2023</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam molestiae voluptates delectus tenetur nemo expedita harum amet, facilis asperiores id unde quia excepturi similique quae neque autem incidunt. Quis, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="images/menu-4.png" alt="blog">
+            </div>
+            <div class="content">
+                <a href="#" class="title">how to make Capuccino Coffee?</a>
+                <span>by Bulut Selbeş / 16st august, 2023</span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam molestiae voluptates delectus tenetur nemo expedita harum amet, facilis asperiores id unde quia excepturi similique quae neque autem incidunt. Quis, accusamus!</p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- blog section end-->
+
+<!-- footer section start-->
+<section class="footer">
+    <div class="search">
+        <input type="text" class="search-input" placeholder="search"> 
+        <button class="btn btn-primary">search</button>
+    </div>
+    <div class="share">
+        <a href="#" class="fab fa-facebook"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+        <a href="#" class="active">Home</a>
+        <a href="#" class="active">About</a>
+        <a href="#" class="active">Menu</a>
+        <a href="#" class="active">Products</a>
+        <a href="#" class="active">Review</a>
+        <a href="#" class="active">Contact</a>
+        <a href="#" class="active">Blogs</a>
+    </div>
+    <div class="credit">
+        created by <span>Bulut Selbeş</span> | all right reserved
+    </div>
+</section>
+<!-- footer section end-->
+
+<script src="js/script.js"></script>
+</body>
+</html>
